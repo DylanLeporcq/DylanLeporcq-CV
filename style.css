@@ -1,0 +1,186 @@
+* {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-image: url("pics/brickwall.jpg");
+    background-position: top;
+    background-size: 700px;
+    overflow-x: hidden;
+}
+
+#background{
+    background: rgba(13, 13, 13, 0.82);
+}
+
+h1{
+    background: #36233E;
+    width: 100%;
+    margin: 0;
+    padding: 1.5% 0 1.5% 42%;
+    font-size: 50pt;
+}
+
+#page{
+    width: 100%;
+    display: flex;
+}
+
+#side_menu {
+    background: rgba(0, 0, 0, 0.81);
+    width: 25%;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    z-index: 2;
+}
+
+#side_menu_responsive{
+    display: none;
+}
+
+.option {
+    width: 90%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 16pt;
+    letter-spacing: 2px;
+}
+
+.fas{
+    margin-right: 10%;
+    height: 5%;
+    width: 5%;
+}
+
+#infos{
+    background: rgba(22, 22, 22, 0);
+    width: 75%;
+    margin: 0 0 0 25%;
+    padding: 2%;
+}
+
+#showBTN {
+    display: none;
+}
+
+.i2, .i3, .i4, .i5, .i6 {
+    display: none;
+}
+
+.o1{
+    font-weight: bold;
+}
+.o2, .o3, .o4, .o5, .o6{
+    color: rgba(255, 255, 255, 0.27);
+    font-weight: normal;
+}
+
+.skillList{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.title{
+    font-size: 22pt;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.para{
+    font-size: 13pt;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: rgb(177, 177, 177);
+    margin: 2% 0 4% 0;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    padding-bottom: 2%;
+}
+
+.para li{
+    color: rgb(177, 177, 177);
+}
+
+.tf2{
+    list-style-type: none;
+    font-size: 14pt;
+    color: rgb(208, 208, 208);
+}
+
+.title_form{
+    font-size: 15pt;
+
+}
+#age{
+    color: rgb(177, 177, 177);
+}
+
+canvas{
+    font-size: 13pt;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: rgb(177, 177, 177);
+    margin: 2% 0 4% 0;
+    border-bottom: 1px solid rgb(87, 87, 87);
+    padding-bottom: 2%;
+}
+
+.liste {
+    font-size: 18pt;
+    text-decoration: none;
+    margin: 0 0 6% 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+#links{
+    font-size: 22pt;
+    margin: 2% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#links a{
+    width: 30%;
+    margin: 0.5% 0 0.5% 0;
+    padding: 2% 1% 2% 1%;
+}
+
+.fab{
+    font-size: 26pt;
+}
+
+
+.gmailLink:hover{
+    background: #e2443c;
+}
+
+.instaLink:hover{
+    background: #e37d36;
+}
+
+.linkedLink:hover {
+    background: #4b59a3;
+}
+
+.facebookLink:hover{
+    background: #2f327c;
+}
+
+.githubLink:hover {
+    background: #904895;
+}

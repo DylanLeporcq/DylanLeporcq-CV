@@ -1,0 +1,70 @@
+#side_menu{
+    display: none;
+}
+
+#side_menu_responsive {
+    background: rgba(0, 0, 0, 0.95);
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    display: none;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 2;
+    font-size: 20pt;
+}
+#infos{
+    width: 100%;
+    margin: 0;
+}
+
+#side_menu_responsive div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #919191;
+    width: 100%;
+    padding: 2% 0 2% 0;
+}
+
+h1{
+    padding: 1.5% 0 1.5% 0;
+    text-align: center;
+    font-size: 50pt;
+}
+
+#showBTN{
+    display: block;
+    color: rgba(205, 205, 205, 0.73);
+    font-size: 60pt;
+    margin: 0 0 0 2%;
+}
+
+.fas, .far{
+    margin : 0;
+    height: 5%;
+    width: 5%;
+}
+
+.logoRes {
+    width: 100%;
+}
+
+#links{
+    font-size: 22pt;
+    margin: 2% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#links a{
+    width: 60%;
+    margin: 0.5% 0 0.5% 0;
+    padding: 2% 1% 2% 1%;
+}
